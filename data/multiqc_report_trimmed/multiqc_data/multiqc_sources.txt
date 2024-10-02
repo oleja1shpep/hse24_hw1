@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	PE_R1	/home/ovryabov/hw1/report_trimmed/PE_R1.fq.trimmed_fastqc.zip
+FastQC	all_sections	MP_R1	/home/ovryabov/hw1/report_trimmed/MP_R1.fq.int_trimmed_fastqc.zip
+FastQC	all_sections	PE_R2	/home/ovryabov/hw1/report_trimmed/PE_R2.fq.trimmed_fastqc.zip
+FastQC	all_sections	MP_R2	/home/ovryabov/hw1/report_trimmed/MP_R2.fq.int_trimmed_fastqc.zip

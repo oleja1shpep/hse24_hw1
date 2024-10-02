@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	MP_R2	/home/ovryabov/hw1/report_MP_R2/MP_R2_fastqc.zip
+FastQC	all_sections	PE_R1	/home/ovryabov/hw1/report_PE_R1/PE_R1_fastqc.zip
+FastQC	all_sections	PE_R2	/home/ovryabov/hw1/report_PE_R2/PE_R2_fastqc.zip
+FastQC	all_sections	MP_R1	/home/ovryabov/hw1/report_MP_R1/MP_R1_fastqc.zip
