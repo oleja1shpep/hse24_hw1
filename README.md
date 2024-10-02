@@ -15,8 +15,6 @@ ln -s /usr/share/data-minor-bioinf/assembly/oilMP_S4_L001_R1_001.fastq
 ln -s /usr/share/data-minor-bioinf/assembly/oilMP_S4_L001_R2_001.fastq
 ```
 
-
-
 После этого я воспользовался утилитой seqtk чтобы выбрать 5 миллионов рандомных чтений типа paired-end и 1,5 миллиона чтений типа mate-pairs
 
 ```bash
@@ -38,6 +36,7 @@ fastqc PE_R1.fq -o report_PE_R1/
 ```
 
 И так для каждого файла с чтениями. Затем при помощи multiQC сформировал единый отчёт
+(все скриншоты в папках ./data/muliqc_report и ./data/muliqc_report_trimmed)
 
 ```bash
 multiqc -o ./multiqc_report/ ./
