@@ -77,7 +77,7 @@ platanus scaffold -c PE/PE_contig.fa -IP1 PE/PE_R1.fq.trimmed PE/PE_R2.fq.trimme
 Затем я при помощи **platanus gap_close** уменьшил количество гэпов
 
 ```bash
-platanus gap_close -c out_scaffold.fa -IP1 PE/PE_R1.fq.trimmed PE/PE_R2.fq.trimmed -OP2 -OP2 MP/MP_R1.fq.int_trimmed MP/MP_R2.fq.int_trimmed 
+platanus gap_close -c out_scaffold.fa -IP1 PE/PE_R1.fq.trimmed PE/PE_R2.fq.trimmed -OP2 MP/MP_R1.fq.int_trimmed MP/MP_R2.fq.int_trimmed 
 ```
 
 Как мы видим число и общая длина гэпов значительно уменьшились
